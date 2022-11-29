@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  @apply bg-white;
+}
+
+button {
+  @apply bg-red-300 rounded-lg p-2 px-5 hover:bg-lime-500;
+}
+
+h3 {
+  @apply text-2xl;
+}
+h1 {
+  @apply text-5xl;
+}
+
+.theme-light {
+  --background: #f8f8f8;
+  --text: #313131;
+}
+.theme-dark {
+  --background: #313131;
+  --text: #f8f8f8;
+}
