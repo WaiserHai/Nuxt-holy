@@ -1,9 +1,11 @@
 <template>
-  <div class="flex flex-col h-screen justify-between">
+  <div class="h-screen w-10/12 mx-auto justify-center items-center">
     <slot />
   </div>
 </template>
 
 <script setup></script>
 
-<style scoped></style>
+<style scoped>
+
+</style>
