@@ -1,7 +1,7 @@
 <template>
   <div>
     <header>
-      <nav class="bg-white shadow-lg">
+      <nav class="bg-white shadow-lg p-6">
         <div class="flex w-8/12 mx-auto items-center">
           <div
             class="flex justify-start lg:w-0 lg:flex-1 text-xl font-semibold"

@@ -1,6 +1,7 @@
 <template>
   <div>
-    <Banner />
     <IntroCard />
+    <Banner />
+    <UpcomingEvents />
   </div>
 </template>

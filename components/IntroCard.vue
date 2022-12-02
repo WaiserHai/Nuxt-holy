@@ -1,28 +1,36 @@
 <template>
-  <div class="flex max-w-screen-xl justify-between mx-auto w-full">
+  <div class="py-5 flex max-w-screen-xl justify-between mx-auto w-full">
     <div class="video-wrapper">
-      <video autoplay loop muted playsinline>
-        <source src="~/assets/video/codeingmp4.mp4" type="video/mp4" />
+      <video hover:active autoplay loop muted playsinline>
+        <source
+          src="~/assets/video/220202_02_Bible_2k_003.mp4"
+          type="video/mp4"
+        />
         Your browser does not support the video tag.
       </video>
       <!-- This will be positioned on top of our video background -->
-      <div class="header space-y-4">
-        <span class="bg-slate-50 text-blue-800 text-xs px-2.5 py-0.5 rounded"
-          >Badge</span
+      <div class="header space-y-2">
+        <span
+          class="font-semibold bg-slate-50 text-blue-800 text-sm px-2.5 py-0.5 rounded"
+          >Letze Versammlung</span
         >
-        <h1>Introduction ...</h1>
-        <div class="space-x-4">
+        <h1>Der Seeligste Wunsch zu werden im Herrn</h1>
+        <div class="space-x-2 space-y-2">
           <button
-            class="text-white bg-blue-500 hover:bg-blue-600 rounded-md text-sm px-5 py-2.5"
+            class="text-white bg-orange-500 hover:bg-orange-600 transition duration-300 ease-in-out hover:-translate-x-0 hover:scale-105 rounded-md text-sm px-4 py-2"
             type="button"
           >
-            <NuxtLink class="font-bold" to="/locked">Primary</NuxtLink>
+            <NuxtLink class="font-bold text-xl" to="/locked"
+              >Hier Anschauen</NuxtLink
+            >
           </button>
           <button
-            class="text-white outline-blue-500 outline outline-2 hover:bg-blue-500 rounded-md text-sm px-5 py-2"
+            class="text-white bg-blue-700 transition duration-300 ease-in-out hover:-translate-x-0 hover:scale-105 rounded-md text-sm px-4 py-2"
             type="button"
           >
-            <NuxtLink class="font-bold" to="/locked">Secondary</NuxtLink>
+            <NuxtLink class="font-bold text-xl" to="/locked"
+              >Zum Archiv</NuxtLink
+            >
           </button>
         </div>
       </div>
@@ -34,7 +42,7 @@
 
 <style scoped>
 h1 {
-  @apply font-bold text-xl;
+  @apply font-bold text-3xl;
 }
 
 video {
@@ -42,7 +50,7 @@ video {
 }
 
 .header {
-  @apply relative text-white  m-6;
+  @apply relative text-white  m-4;
 }
 
 .video-wrapper {
