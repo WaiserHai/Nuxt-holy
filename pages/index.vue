@@ -2,6 +2,6 @@
   <div>
     <IntroCard />
     <Banner />
-    <UpcomingEvents />
+    <RadomText />
   </div>
 </template>

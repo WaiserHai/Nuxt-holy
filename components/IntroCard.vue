@@ -1,7 +1,7 @@
 <template>
   <div class="py-5 flex max-w-screen-xl justify-between mx-auto w-full">
     <div class="video-wrapper">
-      <video hover:active autoplay loop muted playsinline>
+      <video autoplay loop muted playsinline>
         <source
           src="~/assets/video/220202_02_Bible_2k_003.mp4"
           type="video/mp4"
@@ -11,7 +11,7 @@
       <!-- This will be positioned on top of our video background -->
       <div class="header space-y-2">
         <span
-          class="font-semibold bg-slate-50 text-blue-800 text-sm px-2.5 py-0.5 rounded"
+          class="font-semibold bg-slate-200 text-neutral-900 text-sm px-2.5 py-0.5 rounded"
           >Letze Versammlung</span
         >
         <h1>Der Seeligste Wunsch zu werden im Herrn</h1>
@@ -54,6 +54,6 @@ video {
 }
 
 .video-wrapper {
-  @apply relative overflow-hidden flex items-end aspect-video h-[28rem] w-full rounded-2xl;
+  @apply relative overflow-hidden flex items-end aspect-video h-[30rem] w-full rounded-xl shadow-md;
 }
 </style>
