@@ -6,4 +6,5 @@ module.exports = {
     extend: {},
   },
   plugins: ["@tailwindcss/jit"],
+  darkMode: "class",
 };
