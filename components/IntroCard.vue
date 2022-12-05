@@ -17,7 +17,7 @@
         <h1>Der Seeligste Wunsch zu werden im Herrn</h1>
         <div class="space-x-2 space-y-2">
           <button
-            class="text-white bg-orange-500 hover:bg-orange-600 transition duration-300 ease-in-out hover:-translate-x-0 hover:scale-105 rounded-md text-sm px-4 py-2"
+            class="text-white bg-orange-500 hover:bg-orange-600 transition duration-300 ease-in-out hover:scale-105 rounded-md text-sm px-4 py-2"
             type="button"
           >
             <NuxtLink class="font-bold text-xl" to="/locked"
@@ -25,7 +25,7 @@
             >
           </button>
           <button
-            class="text-white bg-blue-700 transition duration-300 ease-in-out hover:-translate-x-0 hover:scale-105 rounded-md text-sm px-4 py-2"
+            class="text-white bg-blue-700 transition duration-300 ease-in-out hover:scale-105 rounded-md text-sm px-4 py-2"
             type="button"
           >
             <NuxtLink class="font-bold text-xl" to="/locked"

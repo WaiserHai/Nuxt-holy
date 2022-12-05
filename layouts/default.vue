@@ -5,9 +5,9 @@
   <div class="h-screen w-8/12 mx-auto">
     <slot />
   </div>
-  <div>
+  <!-- <div>
     <Footer />
-  </div>
+  </div> -->
 </template>
 
 <script setup></script>
